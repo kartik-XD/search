@@ -1,0 +1,23 @@
+.search_input{
+    border: 2px solid gray;
+    border-radius: 999px;
+    margin: 0 auto;
+    width: 75vw;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: 20px;
+    max-width: 560px;
+}
+
+.search_input > input{
+    flex: 1;
+    border: none;
+    font-size: medium;
+    padding-left: 10px;
+}
+
+.search_input > input:focus{
+    outline: none;
+}
